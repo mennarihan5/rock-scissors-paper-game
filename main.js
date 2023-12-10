@@ -2,8 +2,6 @@ function game(player1, player2){
     const paper = "paper";
     const rock = "rock";
     const scissors = "scissors";
-    let player1Points = 0;
-    let player2Points = 0;
 
     if (player1 === player2) {
         return `It's a tie!`;
